@@ -81,7 +81,7 @@ body {
 
 .description_div {
     top: 12.5%;
-    right: 3.5%;
+    right: 3%;
     width: 37.51%;
     height: 85.4%;
     position: absolute;
@@ -91,13 +91,20 @@ body {
     font-size: 30.5px;
 }
 
-.description_div_text {
+.description_div_text_back {
   border-radius: 25px;
   background-color: #595959;
   bottom: 10%;
-  width: 85.5%;
+  width: 85%;
   height: 70%;
   position: absolute;
+}
+
+.description_div_text {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  font-size: 15.5px;
 }
 
 </style>
@@ -125,10 +132,12 @@ body {
 </div>
 <div class="description_div" id="description_div">
     <b>Description</b>
-    <div class="description_div_text" id="description_div_text">
-    <p>
+    <div class="description_div_text_back" id="description_div_text">
+    <div class="description_div_text">
+    <p id="description">
     #description
     </p>
+    </div>
     </div>
 </div>
 </div>
