@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,6 +16,14 @@ body {
   position: absolute;
   background-color: #434343;
 }
+
+.branding {
+    top: 0.5%;
+    right: 3.5%;
+    position: absolute;
+    line-height: 10px;
+}
+
 
 .profile_pic_a {
   top: 4.56%;
@@ -49,6 +58,27 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
+    position: absolute;
+}
+
+.back_arrow {
+    height: 45px;
+    width: 45px;
+    left: 2%;
+    top: 5%;
+    position: absolute;
+}
+
+.back_arrow_img {
+    height: 100%;
+    width: 100%;
+}
+
+.credits {
+    left: 1%;
+    bottom: 0;
+    position: absolute;
+    font-size: 13px;
 }
 
 .bottom_div {
@@ -118,6 +148,15 @@ body {
 <div class="banner_div" id="banner_div">
 <img src="https://fightingox1.github.io/image_library/banner.png" id="banner_img" class="banner_img">
 </div>
+<div id="back_arrow" class="back_arrow">
+<a href="#">
+<img src="https://cdn.iconscout.com/icon/free/png-256/back-arrow-1767515-1502579.png" id="back_arrow_img" class="back_arrow_img">
+</a>
+</div>
+<div id="branding" class="branding">
+<h1>Amazing Math</h1>
+<h2>By something studios</h2>
+</div>
 <div class="bottom_div" id="bottom_div">
 <img src="https://fightingox1.github.io/image_library/cover.jpg" id="game_cover" class="game_cover">
 <div class="game_play_div" id="game_play_div">
@@ -140,6 +179,39 @@ body {
     </div>
     </div>
 </div>
+<div class="credits" id="credits">
+<p>Something Studios</p>
 </div>
-</body>
+</div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+    // <![CDATA[  <-- For SVG support
+    if ('WebSocket' in window) {
+            (function() {
+                    function refreshCSS() {
+                            var sheets = [].slice.call(document.getElementsByTagName("link"));
+                            var head = document.getElementsByTagName("head")[0];
+                            for (var i = 0; i < sheets.length; ++i) {
+                                    var elem = sheets[i];
+                                    head.removeChild(elem);
+                                    var rel = elem.rel;
+                                    if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                                    }
+                                    head.appendChild(elem);
+                            }
+                    }
+                    var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                    var address = protocol + window.location.host + window.location.pathname + 'ws';
+                    var socket = new WebSocket(address);
+                    socket.onmessage = function(msg) {
+                            if (msg.data == 'reload') window.location.reload();
+                            else if (msg.data == 'refreshcss') refreshCSS();
+                    };
+                    console.log('Live reload enabled.');
+            })();
+    }
+    // ]]>
+</script></body>
 </html>
