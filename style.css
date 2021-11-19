@@ -1,1 +1,134 @@
 
+body {
+  background-color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.sidebar {
+  width: 9.52381%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #434343;
+}
+
+.branding {
+    top: 0.5%;
+    right: 3.5%;
+    position: absolute;
+    line-height: 10px;
+}
+
+
+.profile_pic_a {
+  top: 4.56%;
+  left: 13.08%;
+  width: 71.95%;
+  aspect-ration: 1 / 1;
+  position: absolute;
+}
+
+.profile_pic_img {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: relative;
+}
+
+.banner_div {
+    top: 0;
+    right: 0;
+    height: 49.32%;
+    width: 90.47619%;
+    position: absolute;  
+}
+
+.banner_img {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.back_arrow {
+    height: 45px;
+    width: 45px;
+    left: 10%;
+    top: 3.5%;
+    position: absolute;
+}
+
+.back_arrow_img {
+    height: 100%;
+    width: 100%;
+}
+
+.credits {
+    left: 1%;
+    bottom: 0;
+    position: absolute;
+    font-size: 13px;
+}
+
+.bottom_div {
+    height: 50.68%;
+    width: 90.47619%;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.game_cover {
+    left: 2.56%;
+    top: 9.67%;
+    width: 17.25%;
+    height: 55.8%;
+    position: absolute;
+}
+
+.game_play_div {
+    width: 26.85%
+    height: 31.51%;
+    top: 15.07%;
+    left: 22.17%;
+    position: absolute;
+}
+
+.game_play_div b{
+    font-size: 20px;
+}
+
+.description_div {
+    top: 12.5%;
+    right: 3%;
+    width: 37.51%;
+    height: 85.4%;
+    position: absolute;
+}
+
+.description_div b{
+    font-size: 30.5px;
+}
+
+.description_div_text_back {
+  border-radius: 25px;
+  background-color: #595959;
+  bottom: 10%;
+  width: 85%;
+  height: 70%;
+  position: absolute;
+}
+
+.description_div_text {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  font-size: 15.5px;
+}
