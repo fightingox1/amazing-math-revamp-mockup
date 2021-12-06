@@ -1,0 +1,81 @@
+body {
+  background-color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.main_game_page_body {
+  width: 90.47619%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+
+.sidebar {
+  width: 9.52381%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #434343;
+}
+
+.branding {
+    top: 4%;
+    left: 3.5%;
+    position: absolute;
+    line-height: 8px;
+}
+
+.branding h1 {
+    color: #FFFFAD;
+    font-size: 25px;
+}
+
+.game_holder {
+  top: 20.5%;
+  width: 20%;
+  height: 35%;
+  left: 5.5%;
+  padding-right: 3.5%;
+  float: left;
+  position: relative;
+  text-align: center;
+}
+
+.game_holder img {
+  top: 10%;
+  width: 85%;
+  height: 70%;
+  position: relative;
+}
+
+.game_holder p {
+  bottom: -5%;
+  position: relative;
+}
+
+.branding p {
+  font-size: 14px;
+}
+
+.profile_pic_a {
+  top: 4.56%;
+  left: 13.08%;
+  width: 71.95%;
+  aspect-ration: 1 / 1;
+  position: absolute;
+}
+
+.profile_pic_img {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: relative;
+}
